@@ -1,7 +1,3 @@
---Ques1
---19MA20039
---Rahul Saini
-
 data Heap a = Empty
              | Branch (Heap a) a (Heap a)
       deriving Show
