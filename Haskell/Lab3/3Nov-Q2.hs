@@ -1,7 +1,3 @@
---Ques2
---19MA20039
---Rahul Saini
-
 random :: [[Int]] -> [[Int]]
 random [] = []
 random (x:xs) = x : random (filter (x /=) xs)
