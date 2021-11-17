@@ -1,6 +1,3 @@
---Ques2
---19MA20039--Rahul Saini
-
 checkPythagoreantriplet :: (Int, Int, Int) -> Bool
 checkPythagoreantriplet (x, y, z) = x*x + y*y + z*z == 2 * z * z
     where set = [x,y,z]
