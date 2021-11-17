@@ -1,7 +1,3 @@
---Ques3
---19MA20039
---Rahul Saini
-
 data Btree a = Empty | Node (Btree a) a (Btree a)
 
 max_t :: Int -> Int -> Int
