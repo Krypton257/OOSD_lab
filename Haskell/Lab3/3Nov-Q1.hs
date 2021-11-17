@@ -1,7 +1,3 @@
---Ques1
---19MA20039
---Rahul Saini
-
 --function for elements smaller than pivot
 smallerthanPivot :: Int -> [Int] -> [Int]
 smallerthanPivot pivot z = [y | y <- z, y <= pivot]
