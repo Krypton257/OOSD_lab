@@ -1,7 +1,3 @@
---Ques3
---19MA20039
---Rahul Saini
-
 import Data.List (delete)
  
 selectionSort :: (Ord a) => [a] -> [a]
