@@ -1,7 +1,3 @@
---Ques2
---19MA20039
---Rahul Saini
-
 rev :: [Int] -> [Int]
 rev [] = []
 rev (x : xs) = rev(xs) ++ [x]
