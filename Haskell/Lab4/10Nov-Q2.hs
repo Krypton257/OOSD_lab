@@ -1,7 +1,3 @@
---Ques2
---19MA20039
---Rahul Saini
-
 data Btree a = Empty | Node (Btree a) a (Btree a)
 
 flatten :: Btree a -> [a]
