@@ -1,6 +1,3 @@
---Ques1
---19MA20039--Rahul Saini
-
 checkPythagoreantriplet :: (Int, Int, Int) -> Bool
 checkPythagoreantriplet (x, y, z) = x*x + y*y + z*z == 2 * maximum set * maximum set
     where set = [x,y,z]
