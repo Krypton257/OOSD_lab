@@ -1,7 +1,3 @@
---Ques3
---19MA20039
---Rahul Saini
-
 combination :: Int -> [a] -> [[a]]
 combination 0 _ = [[]]
 combination n xs = [ xs !! i : x | i <- [0..(length xs) -1]
