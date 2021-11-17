@@ -1,7 +1,3 @@
---Ques1
---19MA20039
---Rahul Saini
-
 flattenlist :: [[a]] -> [a]
 flattenlist [] = []
 flattenlist (x:xs) = x ++ flattenlist xs
